@@ -1,0 +1,52 @@
+{
+  "repositories": [
+    {
+      "name": "frontend-app",
+      "url": "https://github.com/yourorg/frontend-app",
+      "description": "Main frontend application",
+      "project": "MainProject"
+    },
+    {
+      "name": "backend-api",
+      "url": "https://github.com/yourorg/backend-api", 
+      "description": "Backend API service",
+      "project": "MainProject"
+    },
+    {
+      "name": "smart-contracts",
+      "url": "https://github.com/yourorg/smart-contracts",
+      "description": "Blockchain smart contracts",
+      "project": "Blockchain"
+    },
+    {
+      "name": "validator-tools",
+      "url": "https://github.com/yourorg/validator-tools",
+      "description": "Validator setup and monitoring tools", 
+      "project": "Infrastructure"
+    },
+    {
+      "name": "documentation",
+      "url": "https://github.com/yourorg/documentation",
+      "description": "Project documentation and guides",
+      "project": "Documentation"
+    }
+  ],
+  "default_filters": {
+    "since": "2021-01-01",
+    "until": "2025-12-31",
+    "author": null,
+    "branch": null
+  },
+  "selected_authors": [
+    "developer1",
+    "developer2", 
+    "team-lead",
+    "DevOps Engineer",
+    "contributor-name"
+  ],
+  "output_settings": {
+    "default_format": "csv",
+    "include_summary": true,
+    "parallel_workers": 4
+  }
+} 
